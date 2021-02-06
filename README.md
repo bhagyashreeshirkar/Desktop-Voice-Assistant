@@ -6,7 +6,7 @@ It is a voice commanding assistant using Python 3.9.1. It can recognize human sp
 * **Shows the location of a particular place**
 * **Plays music in Youtube**
 * **Fetches top headline news from Time of India**
-* **Abstarcts first 4 lines of wikipedia and speaks the information to the user.**
+* **Abstracts first 4 lines from wikipedia and speaks the information to the user.**
 * **Translate the statements and prints translation**
 * **Sends mail through user-entered(sender and receiver) mail**
 * **Tells the current time and date**
@@ -29,7 +29,7 @@ It is a voice commanding assistant using Python 3.9.1. It can recognize human sp
 `pip install pipwin`
 `pipwin install PyAudio`
 4. Pywhatkit - 
-`pip install pywhatkit`
+`pip install pywhatkit` 
 5. Wikipedia - 
 `pip install wikipedia`
 6. Web-browser -
