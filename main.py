@@ -175,9 +175,12 @@ def run():
 
     elif 'create folder on desktop' in command:
         talk('Creating a folder')
-        folder_path = 'C:\\Users\\Rsc\\Desktop'
-        os.chdir(folder_path)  # .chdir() changes the current working directory to the given path
         talk('Which name should I give to the folder?')
+        command = take_command().lower()
+        new_path = 'C:\\Users\\Rsc\\Desktop\\' + command
+        if not os.path.exists(new_path):
+            os.makedirs(new_path)
+        talk('Folder has been created!')
 
     elif 'empty recycle bin' in command:
         winshell.recycle_bin().empty(confirm=False, show_progress=False, sound=True)
