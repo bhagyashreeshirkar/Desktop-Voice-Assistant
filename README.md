@@ -1,4 +1,4 @@
-# Desktop-Voice-Assistant
+# Desktop Voice Assistant
 It is a voice commanding assistant using Python 3.9.1. It can recognize human speech, talk to the user and execute basic commands.
 
 ## Assistant Skills
